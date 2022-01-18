@@ -1,0 +1,199 @@
+.bestProduct {
+    height: 1073px;
+    width: 100%;
+    background: url('./../../../public/images/bes-bg@3x.png');
+    background-size: cover;
+    /* margin: -88px 0px 0px 0px; */
+}
+
+.bestProductTitle {
+    text-align: center;
+    color: #f96400;
+    font-size: 50px;
+    letter-spacing: 5px;
+    line-height: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: -60px;
+    font-weight: 700;
+}
+
+.bestProductContent {
+    text-align: center;
+    color: #f96400;
+    font-size: 20px;
+    line-height: 32px;
+    font-weight: 300;
+    max-width: 665px;
+    margin: auto;
+    margin-bottom: 70px;
+    font-weight: 300;
+}
+
+.bestProductList {
+    margin: auto;
+    max-width: 1572px;
+    width: 100%;
+    display: flex;
+}
+
+.bestProductItem {
+    flex: 4;
+    position: relative;
+}
+
+.bestProductItem img{
+    width: 100%;
+    height: auto;
+    /* object-fit: cover; */
+}
+
+.bestProductIcon {
+    position: absolute;
+    height: 92px !important;
+    width: 92px !important;
+    z-index: 10 !important;
+    margin-left: -100%;
+    transform: translateY(-50%);
+}
+
+.bestProductDes {
+    position: absolute;
+    height: 79px;
+    width: 369px;
+    border: solid 3px #222222;
+    border-radius: 3px;
+    margin-left: 50%;
+    transform: translate(-50%,-50%);
+    margin-top: -10px;
+    background: white;
+    display: flex;
+
+}
+
+.bestProductDescription {
+    color: #222;
+    font-size: 20px;
+    line-height: 25px;
+    font-weight: 500;
+    margin-left: 27px;
+    max-width: 230px;
+    font-weight: 800;
+    margin-top: 14px;
+}
+
+.bestProductButton {
+    width: 65px;
+    height: 65px;
+    background: #222;
+    color: white;
+    font-weight: 800;
+    border-radius: 50%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-right: 9px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    margin-left: 25px;
+    font-size: 20px;
+    transform: translateX(10px);
+}
+
+.bestProductButton:hover {
+    background: #500e0e;
+    transition: 0.4s;
+}
+
+@media (max-width: 858px){
+    .bestProduct {
+        height: 2450px;
+    }
+    .bestProductList {
+        flex-direction: column;
+    }
+    .bestProductItem {
+        flex: 12;
+        margin-bottom: 50px;
+    }
+    .productItem {
+        width: 46% !important;
+        margin-left: 10px !important;
+    }
+
+    .brandStoryDesBottom {
+        flex-direction: column;
+    }
+    .brandStoryDesLeft, .brandStoryDesRight {
+        flex: 12;
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .brandStoryDesTop {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .object {
+        display: none;
+    }
+    .brandStory {
+        height: 1400px !important;
+    }
+    .brandStoryDesRightButton{
+        margin-bottom: 35px;
+    }
+    .issueList {
+        height: 160px !important;
+    }
+    .whpnIssue {
+        height: 100% !important;
+    }
+    .issueBoxImages {
+        width: 100%;
+        height: 100% !important;  
+    }
+    .whpnIssueTitle {
+        font-size: 20px !important;
+        font-weight: 700;
+        margin-top: 98px !important;
+        /* margin-left: 17px; */
+        max-width: 200px;
+        line-height: 22px !important;
+        margin-top: 98px;
+        text-transform: uppercase;
+        text-align: center;
+    }
+
+    .whatHappened2Video {
+        display: block !important;
+        width: 100% !important;
+        margin-left: 50%;
+        transform: translateX(-50%);
+        z-index: 9;
+    }
+    .footerTop, .footerBottom {
+        display: flex;
+        flex-direction: column;
+    }
+    .footerTopLeft, .footerBottomLeft {
+        flex: 12;
+    }
+    .footerTopRight .footerOption {
+        width: 33% !important;
+    }
+    .footerTopRight, .footerBottomRight {
+        flex: 12 !important;
+        flex-wrap: wrap;
+        justify-content: flex-start !important;
+    }
+    .footer {
+        padding: 30px 15px 50px 16px !important;
+    }
+    .footerTopRight .footerOption {
+        margin-top: 20px !important;
+    }
+    .whatHappened2 {
+        height: 1000px;   
+    }
+}

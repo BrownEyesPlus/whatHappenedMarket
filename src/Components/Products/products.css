@@ -1,0 +1,31 @@
+.productItem {
+    width: 300px;
+    height: auto;
+    /* background-color: rosybrown; */
+    margin: 40px 14px 40px 0px;
+}
+
+.productItem img{
+    width: 100%;
+
+}
+
+.productTitle {
+    font-size: 18px;
+}
+
+.productPrice {
+    flex: 6;
+}
+
+.productLiked {
+    flex: 6;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.productLiked i{
+    color: sandybrown;
+    padding-right: 6px;
+}

@@ -1,0 +1,117 @@
+.brandStory {
+    background-color: #0565bb;
+    margin-top: 200px;
+    height: 900px;
+    position: relative;
+    /* display: flex; */
+}
+
+.bestProductWrap {
+    max-width: 1235px;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.brandStoryTitle {
+    text-align: center;
+    color: #fcd32a;
+    font-size: 45px;
+    letter-spacing: 5px;
+    line-height: 60px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 0px;
+    font-weight: 700;
+}
+
+.brandStoryContent {
+    font-size: 15px;
+    width: 100%;
+    max-width: 682px;
+    margin: auto;
+    color: #fcd32a;
+    text-align: center;
+}
+
+.brandStoryDes {
+    margin-top: 80px;
+    z-index: 10;
+}
+
+.brandStoryDesTop {
+    background: black;
+    height: 24px;
+    padding: 2px 5px 2px 5px;
+}
+
+.brandStoryLine {
+   color:  #0565bb;
+   background-color: #0565bb;
+    border: solid 1px;
+}
+
+.brandStoryDesBottom {
+    display: flex;
+}
+
+.brandStoryDesLeft {
+    flex: 6;
+}
+
+.brandStoryDesLeft img {
+    width: 100%;
+    height: 100%;
+}
+
+.brandStoryDesRight {
+    flex: 6 1;
+    border-right: solid 3px;
+    border-bottom: solid 3px;
+    border-top: solid 3px;
+    background: white;
+}
+
+.brandStoryDesRightTitle {
+    font-size: 25px;
+    line-height: 60px;
+    text-transform: uppercase;
+    margin: 30px 30px 20px 30px;
+}
+
+.brandStoryDesRightContent {
+    font-size: 16px;
+    line-height: 30px;
+    margin: 30px 30px 20px 30px;
+    
+}
+
+.brandStoryDesRightButton {    
+    height: 60px;
+    width: 200px;
+    border: solid 3px #222222;
+    border-radius: 3px;
+    
+    margin-top: -10px;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-size: 23px;
+    font-weight: 700;
+    color: black;
+    margin-top: 35px;
+    margin-left: 35px;
+}
+
+.object {
+    position: absolute;
+}
+
+.object06 {
+    width: 192px;
+    height: auto;
+    top: 420px;
+}
