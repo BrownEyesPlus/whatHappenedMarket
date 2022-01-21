@@ -39,8 +39,7 @@
 @media (max-width: 858px){
     .productItem {
         font-size: 12px;
-        margin: 0.3% 0.3% 0.3% 0.3% !important;
-        margin-left: 1!important;
+        margin: 5px 4px !important;
         width: 39vw!important;
     }
     .productContainer {
