@@ -38,10 +38,10 @@
 
 @media (max-width: 858px){
     .productItem {
-        margin: 0.3% 0.3% !important;
-        width: 39vw !important;
-        margin-left: 1!important;
         font-size: 12px;
+        margin: 0.3% 0.3% 0.3% 0.3% !important;
+        margin-left: 1!important;
+        width: 39vw!important;
     }
     .productContainer {
         width: 418vw;
