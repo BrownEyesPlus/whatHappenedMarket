@@ -142,6 +142,7 @@ input#check {
         margin: 0;
         position: absolute;
         margin-left: 50%;
+        left: 33%;
         left: 0;
         transform: translateX(-49%);
         height: 17px;
