@@ -1,9 +1,14 @@
 .bestProduct {
-    height: 1073px;
+    /* height: 1073px; */
     width: 100%;
     background: url('./../../../public/images/bes-bg@3x.png');
     background-size: cover;
-    /* margin: -88px 0px 0px 0px; */
+    padding-bottom: 1px;
+
+}
+
+.bestProductWrap {
+    margin-bottom: 200px;
 }
 
 .bestProductTitle {
@@ -14,7 +19,7 @@
     line-height: 60px;
     font-weight: 400;
     text-transform: uppercase;
-    margin-top: -60px;
+    margin-top: 127px;
     font-weight: 700;
 }
 
@@ -50,11 +55,11 @@
 
 .bestProductIcon {
     position: absolute;
-    height: 92px !important;
-    width: 92px !important;
+    height: 18% !important;
+    width: 18% !important;
     z-index: 10 !important;
     margin-left: -100%;
-    transform: translateY(-50%);
+    top: -8%;
 }
 
 .bestProductDes {
@@ -102,24 +107,52 @@
 }
 
 .bestProductButton:hover {
+    transform: scale(1.1);
     background: #500e0e;
     transition: 0.4s;
+    margin-right: 0px;
+    margin-left: 32px;
 }
 
 @media (max-width: 858px){
     .bestProduct {
-        height: 2450px;
+        
+    }
+    .bestProductWrap {
+        margin-bottom: 0px;
     }
     .bestProductList {
         flex-direction: column;
+        margin-top: 35px !important;
     }
     .bestProductItem {
         flex: 12;
         margin-bottom: 50px;
     }
-    .productItem {
-        width: 46% !important;
-        margin-left: 10px !important;
+    .bestProductContent {
+        margin-bottom: 40px;
+    }
+    .bestProductDes  {
+        width: 87%;
+        height: 16%;
+    }
+    .bestProductNumber {
+        font-size: 18px !important;
+        top: -4% !important;
+    }
+    .bestProductDescription {
+        font-size: 14px !important;
+        line-height: 20px !important;
+        margin-left: 14px !important;
+        margin-top: 6px !important;
+    }
+    .bestProductButton {
+        width: 50px;
+        height: 50px;
+        font-size: 18px;
+        margin: 0;
+        margin-top: 2px;
+        transform: translateX(-5px);
     }
 
     .brandStoryDesBottom {
@@ -137,14 +170,8 @@
     .object {
         display: none;
     }
-    .brandStory {
-        height: 1400px !important;
-    }
     .brandStoryDesRightButton{
         margin-bottom: 35px;
-    }
-    .issueList {
-        height: 160px !important;
     }
     .whpnIssue {
         height: 100% !important;
@@ -187,13 +214,61 @@
         flex-wrap: wrap;
         justify-content: flex-start !important;
     }
-    .footer {
-        padding: 30px 15px 50px 16px !important;
-    }
     .footerTopRight .footerOption {
         margin-top: 20px !important;
     }
-    .whatHappened2 {
-        height: 1000px;   
+}
+
+.bestProductIcon {
+    animation-name: spin;
+    animation-duration: 5000ms;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/* .bestProductNumber {
+    position: absolute;
+    height: 18% !important;
+    width: 18% !important;
+    z-index: 10 !important;
+    margin-left: -100%;
+    top: -8%;
+} */
+
+.bestProductNumber {
+    position: absolute;
+    height: 18% !important;
+    width: 18% !important;
+    z-index: 10 !important;
+    margin-left: -100%;
+    top: -3%;
+    font-size: 29px;
+    font-weight: 700;
+    transform: translate(30%, 4%);
+    text-decoration: underline 2px;
+    font-family: sans-serif;
+    font-weight: 900;
+}
+
+@media (max-width: 1600px){
+    .bestProductTitle {
+        margin-top: 95px;
+    }
+    .bestProductList {
+        max-width: 1325px;
+    }
+    .bestProductNumber {
+        top: -4%;
+        font-size: 27px;
+        transform: translate(28%, 5%);
     }
 }

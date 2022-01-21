@@ -6,6 +6,7 @@ class ProductList extends Component {
 
  render() {
   return (
+    <>
     <div className='productList'>
         <div className='productContainer'>
             <Products/>
@@ -28,10 +29,11 @@ class ProductList extends Component {
             <Products/>
             <Products/>
             <Products/>
-
         </div>
-        <a href="#" className='productButton'> SEE MORE </a>
+        
     </div>
+    <a href="#" className='productButton seeMoreBtn'> SEE MORE </a>
+    </>
   );
  }
 }

@@ -1,6 +1,7 @@
 .productList {
     padding-top: 60px;
     padding-bottom: 60px;
+    overflow: auto;
 }
 
 .productContainer {
@@ -12,7 +13,6 @@
 }
 
 .productButton {
-    position: absolute;
     height: 60px;
     width: 200px;
     border: solid 3px #222222;
@@ -30,4 +30,43 @@
     color: black;
     margin-top: 100px;
     margin-bottom: 100px;
+}
+
+
+@media (max-width: 858px){
+    .productButton {
+        height: 30px;
+        width: 135px;
+        margin-top: 0px;
+        margin-bottom: 10px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 1600px){
+    .productContainer {
+        max-width: 1325px;
+    }
+    .productList {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .productItem {
+        width: 253px !important;
+        font-size: 14px;
+        margin: 33px 6px 33px 6px !important;
+    }
+    .productTitle {
+        font-size: 15px;
+    }
+    a.productButton.seeMoreBtn {
+        margin-top: 30px !important;
+        margin-bottom: 50px !important;
+    }
+}
+
+@media (max-width: 1325px){
+    .productContainer {
+        max-width: 1062px;
+    }
 }

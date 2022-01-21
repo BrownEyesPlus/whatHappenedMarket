@@ -58,3 +58,51 @@ ul.footerList li {
     font-size: 13px;
     color: #a9a9a9;
 }
+
+i.iconFooter.fa.fa-facebook-square {
+    color: #1a1aab;
+}
+
+i.iconFooter.fa.fa-medium {
+    color: orange;
+}
+
+i.iconFooter.fa.fa-github-alt {
+    color: green;
+}
+
+@media (max-width: 858px){
+    .footer {
+        font-size: 10px;
+        line-height: 16px;
+        text-align: center;
+        padding: 30px 15px 30px 15px !important;
+    }
+    .footerTitle {
+        font-size: 12px;
+        margin-bottom: 2px;
+    }
+    .footerBottom {
+        margin-top: 30px;
+        padding-top: 15px !important;
+    }
+    .footerList {
+        margin: 0;
+        padding: 0;
+    }
+    .footerBottomLeft {
+        font-size: 11px;
+    }
+    .footerTopRight, .footerBottomRight {
+        align-content: center;
+        justify-content: center !important;
+    }
+}
+
+@media (max-width: 1600px){
+    .footer {
+        border-top: solid 2px #f4f4f4;
+        padding: 30px 80px 30px 80px;
+        font-size: 14px;
+    }
+}

@@ -3,6 +3,7 @@
     text-align: left;
     line-height: 30px;
     color: #111;
+    overflow: hidden;
 }
 
 .d-flex {
@@ -21,4 +22,42 @@
 .h-100 {
     height: 100% !important;
 }
+
+a.seeMoreBtn:hover {
+    box-shadow: 2px 2px 3px 3px #111111b0;
+    transition: 0.4s;
+}
+
+
+
+@media (max-width: 858px){
+    .whTitle {
+        font-size: 15px !important;
+        line-height: 20px !important;
+        letter-spacing: 2px !important;
+        margin-top: 30px !important;
+    }
+    .contentWrap {
+        padding: 20px;
+    }
+    .contentP {
+        font-size: 13px !important;
+        text-align: justify !important;
+        line-height: 26px !important;
+        font-weight: 300 !important;
+        margin: 0 !important;
+        width: auto !important;
+        margin: 20px !important;
+    }
+    .seeMoreBtn {
+        height: 30px !important;
+        width: 135px !important;
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 1600px){
+    
+}
+
 

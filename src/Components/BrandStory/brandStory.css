@@ -1,15 +1,16 @@
 .brandStory {
     background-color: #0565bb;
-    margin-top: 200px;
-    height: 900px;
+    background-image:  (url('./../../../public/images/img-01@3x.png'));
+    /* margin-top: 200px; */
+    height: auto;
     position: relative;
     /* display: flex; */
 }
 
-.bestProductWrap {
+.brandStoryWrap {
     max-width: 1235px;
-    margin-top: auto;
-    margin-bottom: auto;
+    margin-top: 100px;
+    margin-bottom: 658px;
     margin-left: auto;
     margin-right: auto;
 }
@@ -36,8 +37,9 @@
 }
 
 .brandStoryDes {
-    margin-top: 80px;
     z-index: 10;
+    max-width: 1235px;
+    top: 338px;
 }
 
 .brandStoryDesTop {
@@ -62,7 +64,7 @@
 
 .brandStoryDesLeft img {
     width: 100%;
-    height: 100%;
+    height: 100% !important;
 }
 
 .brandStoryDesRight {
@@ -114,4 +116,54 @@
     width: 192px;
     height: auto;
     top: 420px;
+}
+
+.object04 {
+    width: 287px;
+    right: -92px;
+    top: 195px;
+}
+
+.object05 {
+    width: 375px;
+    right: -25px;
+    top: 545px;
+    z-index: 2;
+}
+
+.object07 {
+    width: 180px;
+    left: 190px;
+    top: 502px;
+    z-index: 2;
+}
+
+.object01 {
+    width: 183px;
+    left: 169px;
+    top: 183px;
+    z-index: 2;
+}
+
+.brandStoryDesWrap {
+    display: flex;
+    justify-content: center;
+}
+
+@media (max-width: 858px){
+    .brandStory {
+        height: auto;
+    }
+    .brandStoryDes {
+        display: block !important;
+    }
+    .brandStoryWrap {
+        margin-top: 20px;
+        margin-bottom: 30px;
+    }
+    .brandStoryDes {
+        position: inherit;
+        display: block !important;
+        margin-bottom: 50px;
+    }
 }

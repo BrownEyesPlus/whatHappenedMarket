@@ -23,6 +23,8 @@
 .issueList {
     display: flex;
     height: 480px;
+    overflow: hidden;
+    border: solid;
 }
 
 .issueItem {
@@ -31,7 +33,7 @@
 }
 
 .whpnIssue {
-    height: 476px;
+    height: auto;
     background-color: #ff5500;
 }
 
@@ -63,6 +65,7 @@
     justify-content: center;
     align-items: center;
     height: 100%;
+    /* padding: 55px 10px; */
 }
 
 .issueBoxImages {
@@ -72,7 +75,7 @@
 }
 
 .issueBoxTitle {
-    height: 75px;
+    height: 15%;
     background-color: black;
     color: white;
     text-align: center;
@@ -102,4 +105,95 @@
     color: black;
     margin-top: 90px;
     margin-bottom: 90px;
+}
+
+.issueBox {
+    background: url('./../../../public/images/bbrand2.png');
+    height: 85%;
+    background-size: cover !important;
+    background-position: center !important;
+    overflow: hidden;
+}
+
+.issueBox2 {
+    background: #1f1612b5;
+    height: 100%;
+    color: white;
+    visibility: hidden;
+    opacity: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 35px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+a:hover .issueBox2 {
+    visibility: visible;
+    opacity: 1;
+    transition: 0.4s;
+    transform: scale(1.1);
+    background-size: 120% !important;
+}
+
+a:hover .issueBox {
+    /* background-size: 120% !important; */
+    transform: scale(1.1);
+    transition: 0.4s;
+    
+}
+
+.issueItem a {
+    text-decoration: none;
+}
+
+a.whpnIssueImages:hover {
+    box-shadow: 2px 2px 5px 4px #111111b0;
+}
+
+
+
+@media (max-width: 858px){
+    .issue {
+        padding-bottom: 50px;
+    }
+    .issueButton {
+        margin-top: 40px;
+        margin-bottom: 30px;
+    }
+    .issueList {
+        height: 105px !important;
+    }
+    .issueItem {
+        border: solid 0px;
+    }
+    .Issuewrap {
+        padding: 0 !important;
+        margin: 0 !important;
+    }
+    .whpnIssueTitle {
+        font-size: 15px !important;
+        line-height: 16px !important;
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+    .whpnIssueImages {
+        height: 30%;
+        width: 44%;
+    }
+    .whpnIssueImages img {
+        width: 100%;
+    }
+    .issueBoxTitle {
+        margin: 0;
+        font-size: 9px;
+    }
+}
+
+@media (max-width: 1600px){
+    .issueItem {
+        width: 20%;
+        border: solid;
+    }
 }

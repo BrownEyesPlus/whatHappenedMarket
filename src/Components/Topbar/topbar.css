@@ -86,7 +86,7 @@ input#check {
       width: 100%;
     }
     .header {
-        padding-top: 80px;
+        padding-top: 50px;
     }
     .show {
         display: block !important;
@@ -106,6 +106,7 @@ input#check {
     .top {
         display: flex;
         position: relative;
+        height: 50px;
         /* flex-direction: column; */
     }
     .topOnRight {
@@ -136,5 +137,27 @@ input#check {
         width: 100%;
         /* right: 80%; */
         background: #4e4b4b;
+    }
+    img.logo {
+        margin: 0;
+        position: absolute;
+        margin-left: 50%;
+        left: 0;
+        transform: translateX(-49%);
+        height: 17px;
+    }
+    label.checkbtn {
+        font-size: 24px;
+        line-height: 40px;
+    }
+    
+}
+
+@media (max-width: 1600px){
+    img.logo {
+        margin-left: 80px;
+    }
+    .topOnRight {
+        padding-right: 30px;
     }
 }

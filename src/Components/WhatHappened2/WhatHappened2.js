@@ -8,14 +8,14 @@ class WhatHappended2 extends Component {
     <div className='whatHappened2'>
         <div className='d-flex flex-col h-100'>
             <div className='whatHappened2Wrap flex-swap'>
-                <h2 className='whatHappened2Title'>
+                <h2 className='whatHappened2Title whTitle'>
                     what happened
                 </h2>
-                <p className='whatHappened2Content'>
+                <p className='whatHappened2Content contentP'>
                 How to create mobile-optimized videos in minutes. Not a designer, 
 every team makes a lot of videos Can be trimmed. Take the first 
                 </p>
-                <a href="#" className='whatHappened2Button'> SEE MORE </a>
+                <a href="#" className='whatHappened2Button seeMoreBtn'> SEE MORE </a>
                 
                 <div className='object whatHappened2Video'>
                     <img src='images/video@3x.png' alt=''/>

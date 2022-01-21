@@ -29,3 +29,37 @@
     color: sandybrown;
     padding-right: 6px;
 }
+
+.productItem img:hover {
+    transform: scale(1.1);
+    transition: 0.4s;
+    box-shadow: 0px 0px 4px 4px #412c22ba;
+}
+
+@media (max-width: 858px){
+    .productItem {
+        margin: 0.3% 0.3% !important;
+        width: 39vw !important;
+        margin-left: 1!important;
+        font-size: 12px;
+    }
+    .productContainer {
+        width: 418vw;
+        max-width: none;
+        overflow: auto;
+        overflow: scroll !important;
+        margin: auto;
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .productList {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .productTitle {
+        font-size: 15px;
+        line-height: 22px;
+        text-align: center;
+        margin: 0;
+    }
+}

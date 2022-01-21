@@ -10,7 +10,7 @@ class Header extends Component {
         <div className='whatHappened'>
             <div className='whatHappendWrap'>
                 
-                <h2 className='whatHappenedTitle'>
+                <h2 className='whatHappenedTitle whTitle'>
                     what happened!
                 </h2>
                 <p className='whatHappenedContent'>

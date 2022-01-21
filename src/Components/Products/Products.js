@@ -5,8 +5,11 @@ class Products extends Component {
 
  render() {
   return (
-    <div className='productItem'>
+    
+      <div className='productItem'>
+        <a href="">
         <img src='images/best-image-03@3x.png' />
+        </a>
         <h3 className='productTitle'>
         [What happen] How to create 
         </h3>
@@ -15,6 +18,7 @@ class Products extends Component {
             <div className='productLiked'><i className='fa fa-heart'></i> 236</div>
         </div>
     </div>
+    
   );
  }
 }

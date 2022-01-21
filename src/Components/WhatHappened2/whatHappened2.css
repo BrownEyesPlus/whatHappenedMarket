@@ -1,8 +1,12 @@
 .whatHappened2 {
     /* background-color: #fccb05; */
     padding-bottom: 90px;
-    height: 1650px;
+    /* height: 1650px; */
     position: relative;
+}
+
+.whatHappened2Wrap {
+    margin-bottom: 1100px;
 }
 
 .whatHappened2Title {
@@ -88,4 +92,31 @@
     margin-left: 1546px;
     top: 280px;
     z-index: 2;
+}
+
+@media (max-width: 858px){
+    .whatHappened2Button {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .whatHappened2 {
+        /* background-color: #fccb05; */
+        padding-bottom: 50px;
+        /* height: 1650px; */
+        position: relative;
+    }
+    .whatHappened2Wrap {
+        margin-bottom: 0;
+    }
+    .whatHappened2Video {
+        display: block !important;
+        position: inherit !important;
+    }
+}
+
+@media (max-width: 1600px){
+    .whatHappened2Video {
+        width: 1160px;
+   
+    }
 }
